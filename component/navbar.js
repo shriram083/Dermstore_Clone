@@ -1,5 +1,5 @@
 let navbar = () => {
-    return `   <!-- Header -->
+  return `   <!-- Header -->
       <div id="header">
         <div id="HOne"></div>
         <div id="HTwo">
@@ -46,19 +46,19 @@ let navbar = () => {
               </div>
             </div>
             <div id="HTwoBottom">
-              <div class="categorys"><p>Brands</p></div>
-              <div class="categorys"><p>Browser By</p></div>
-              <div class="categorys"><p>Bestsellers</p></div>
-              <div class="categorys"><p>Skin Care</p></div>
-              <div class="categorys"><p>Makeup</p></div>
-              <div class="categorys"><p>Hair Care</p></div>
-              <div class="categorys"><p>Bath & Body</p></div>
-              <div class="categorys"><p>Tools & Devices</p></div>
-              <div class="categorys"><p>Gifts & Sets</p></div>
-              <div class="categorys"><p>BeautyFIX</p></div>
-              <div class="categorys"><p>Sale</p></div>
-              <div class="categorys"><p>New</p></div>
-              <div class="categorys"><p>Skin 101</p></div>
+              <div class="categorys brands"><p>Brands</p></div>
+              <div class="categorys browser"><p>Browser By</p></div>
+              <div class="categorys best"><p>Bestsellers</p></div>
+              <div class="categorys skinCare"><p>Skin Care</p></div>
+              <div class="categorys makeup"><p>Makeup</p></div>
+              <div class="categorys hari"><p>Hair Care</p></div>
+              <div class="categorys bath"><p>Bath & Body</p></div>
+              <div class="categorys tool"><p>Tools & Devices</p></div>
+              <div class="categorys gifts"><p>Gifts & Sets</p></div>
+              <div class="categorys beauty"><p>BeautyFIX</p></div>
+              <div class="categorys sale"><p>Sale</p></div>
+              <div class="categorys new"><p>New</p></div>
+              <div class="categorys skin"><p>Skin 101</p></div>
             </div>
           </div>
           <div id="HThree">
@@ -89,7 +89,6 @@ let navbar = () => {
             when you spend $160+ on the brand. SHOP NOW
           </p>
         </div>`;
-  };
-  
-  export { navbar };
-  
+};
+
+export { navbar };

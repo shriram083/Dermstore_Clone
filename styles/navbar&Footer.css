@@ -202,6 +202,28 @@ input {
   font-size: 16px;
 }
 
+/* brand */
+.brandCon {
+  position: absolute;
+  width: 1000px;
+  background: #fff;
+  box-shadow: 0010px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border: 3px red solid;
+  top: 100px;
+  right: 200px;
+  max-height: 0px;
+  transition: max-height 0.7s;
+  z-index: 10;
+}
+.brandCon-height {
+  max-height: 600px;
+}
+.brandCon p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 #HThree {
   height: 56px;
   background-color: #f2f2f2;
