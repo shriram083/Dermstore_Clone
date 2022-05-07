@@ -21,10 +21,10 @@ let navbar = () => {
             <div class="contain">
               <div class="containerTop">
                 <div class="insideContainer login">
-                  <p>LOGIN</p>
+                  <p><a href="./login.html">LOGIN</a></p>
                 </div>
                 <div class="insideContainer register">
-                  <p>REGISTER</p>
+                  <p><a href="./signup.html">REGISTER </a></p>
                 </div>
               </div>
               <div class="insideContainer accountDropDown">

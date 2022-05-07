@@ -87,3 +87,15 @@ let decFun = ()=> {
  }
  
  document.querySelector("#dec").addEventListener("click",decFun)
+
+                
+
+
+
+
+ let cartBtn = ()=>{
+
+    window.location.href = "./cart.html"
+ }
+
+ document.querySelector("#cartbutton").addEventListener("click",cartBtn)
