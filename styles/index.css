@@ -7,7 +7,7 @@ h3 {
   font-size: 30px;
   font-weight: 400;
 }
-p {
+.para {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -201,8 +201,11 @@ h2 {
     text-align: center;
   }
 .info3 h3 {
-  margin: -30px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
   font-size: 20px;
+}
+.info3 p{
+  margin: 10px 0px 10px 0px;
 }
 .info3 button a{
     text-decoration: none;
