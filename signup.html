@@ -101,32 +101,39 @@
       </div>
       <hr />
       <h2 class="sub_head">Or create an email account</h2>
-      <div class="input_div">
-        <p class="form_text">*Full Name</p>
-        <input class="input" type="text" name="" id="" />
-      </div>
-      <div>
-        <p class="form_text">*Confirm Email address</p>
-        <input class="input" type="text" name="" id="" />
-      </div>
-      <div>
-        <p class="form_text">*Password</p>
-        <input class="input" type="text" name="" id="" />
-      </div>
-      <div>
-        <p class="form_text">*Confirm Password</p>
-        <input class="input" type="text" name="" id="" />
-      </div>
-      <div>
-        <p class="form_text">Cell Phone Number (Optional)</p>
-        <input class="input" type="text" name="" id="" />
-        <p class="form_text">
-          We will use this number to send ocasional promotional messages.
-        </p>
-      </div>
+      <form id="form">
+        <div class="input_div">
+          <p class="form_text">*Full Name</p>
+          <input class="input" type="text" name="" id="name" />
+        </div>
+       
+        <div>
+          <p class="form_text">*Email address</p>
+          <input class="input" type="text" id="email" />
+        </div>
+        <div>
+          <p class="form_text">*Confirm Email address</p>
+          <input class="input" type="text" id="cnf_email" />
+        </div>
+        <div>
+          <p class="form_text">*Password</p>
+          <input class="input" type="text" id="password" />
+        </div>
+        <div>
+          <p class="form_text">*Confirm Password</p>
+          <input class="input" type="text" id="cnf_Pass" />
+        </div>
+        <div>
+          <p class="form_text">Cell Phone Number (Optional)</p>
+          <input class="input" type="text" id="mobile" />
+          <p class="form_text">
+            We will use this number to send ocasional promotional messages.
+          </p>
+        </div>
+     
       <div id="referal_div">
         <p id="form_text">Referral Code (Optional)</p>
-        <input id="input" type="text" name="" id="" />
+        <input id="input" type="text" id="ref_code" />
         <p id="form_text">
           *Your referrals discount is automatically applied at cart
         </p>
@@ -134,14 +141,15 @@
 
       <p class="form_text">Loyalty Reward program</p>
       <div id="checkbox_div">
-        <input type="checkbox" name="" id="input_lebel" />
+        <input type="checkbox" id="input_lebel"/>
         <label for="input_lebel"
           ><span>Include me in the Dermstore Rewards program </span></label
         >
 
         <span class="term_of_use">Read Our terms of use.</span>
       </div>
-      <button id="continue_btn">Continue</button>
+      <button id="sign_btn" class="continue_btn">Continue</button>
+    </form>
       <div id="last_div">
         <span class="lastText"
           >By proceeding, you are confirming that you agree to our</span
@@ -153,3 +161,4 @@
     </div>
   </body>
 </html>
+<script src="./scripts/signup.js"></script>

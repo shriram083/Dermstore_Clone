@@ -17,16 +17,18 @@
     <div id="login_parent">
       <div>
         <h1 id="head">Existing Customers</h1>
+        <form id="loginForm">
         <div class="input_div">
           <p class="form_text">* Email address</p>
-          <input class="input" type="text" name="" id="" />
+          <input class="input" type="text" name="" id="email" />
         </div>
         <div>
           <p class="form_text">*Password</p>
-          <input class="input" type="text" name="" id="" />
+          <input class="input" type="text" id="password" />
         </div>
         <p class="term_of_use">Forgotten your password?</p>
-        <button id="continue_btn">Login To Your Account</button>
+        <button id="log_org_btn" class="continue_btn">Login To Your Account</button>
+      </form>
         <p class="form_text">Or, Continue with</p>
         <div id="button_parent_div">
            <div>
@@ -114,8 +116,10 @@
       </div>
       <div>
         <h1 id="head">New Customers</h1>
-        <button id="continue_btn">Continue</button>
+        <button class="continue_btn">Continue</button>
       </div>
     </div>
   </body>
 </html>
+
+<script src="./scripts/login.js"></script>
