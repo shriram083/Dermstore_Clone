@@ -1,3 +1,14 @@
+//importing navbar
+import { navbar } from "../component/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
+
+//importing footer
+import { footer } from "../component/footer.js";
+document.getElementById("footerDiv").innerHTML = footer();
+
+
+
 
 import{apical} from "./fetch.js";
 // async function apical(url) {
