@@ -1,0 +1,450 @@
+.brandlogo {
+    height: 50px;
+    width: 100px;
+ }
+
+ #cart_container {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 500px;
+    gap: 10px;
+    height: 1000px;
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
+    grid-template-areas: "a b b b b c c c";
+
+
+ }
+
+ .checked {
+    color: orange;
+    
+ }
+
+
+ /* #cart_container > div{
+   border: 1px solid black;
+} */
+ #small_img {
+    overflow: scroll;
+ }
+ /* #small_img::-webkit-scrollbar{
+    display: none;
+ } */
+
+ #small_img img {
+    border: 1px solid grey;
+    width: 100%;
+    /* display: block; */
+    margin: auto;
+    /* padding: 10px; */
+ }
+
+ #cart_container>div:nth-child(1) {
+    border: 1px solid black;
+    grid-area: a;
+ }
+
+ #cart_container>div:nth-child(2) {
+    grid-area: b;
+    /* border: 1px solid red; */
+ }
+
+ #cart_container>div:nth-child(3) {
+    grid-area: c;
+    /* border: 1px solid blue; */
+ }
+
+
+ #cart_container>div:nth-child(4) {
+    grid-area: d;
+ }
+
+ #cart_container>div:nth-child(5) {
+    grid-area: e;
+ }
+
+ #cart_container>div:nth-child(6) {
+    grid-area: f;
+ }
+
+ #cart_container>div:nth-child(7) {
+    grid-area: g;
+ }
+
+ #cart_container>div:nth-child(8) {
+    grid-area: h;
+ }
+
+ #cart_container>div:nth-child(9) {
+    grid-area: i;
+ }
+
+ #price {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    border: 0.5px solid grey;
+    height: 40px;
+    margin: auto;
+    gap: 10px;
+    /* margin-bottom: 10px; */
+ }
+
+ 
+
+ #secondbox>img {
+    height: 90%;
+    /* width: 100%; */
+    /* padding-bottom: 40px; */
+
+ }
+
+ #sidebb>h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+ }
+
+ #sidebb>p>h5 {
+    padding: 20px;
+ }
+
+ #sidebb>img {
+    max-width: 134px;
+    /* max-height: 60px; */
+    display: block;
+ }
+
+ #sidebb {
+    position: sticky;
+
+
+    padding: 10px;
+    /* background-color: greenyellow; */
+
+ }
+ #appended_description{
+    line-height: 20px;
+    height: 300px;
+    padding-left:5px;
+    font-size: 14px;
+    overflow: scroll;
+ }
+ 
+
+ #appended_description::-webkit-scrollbar{
+   display: none;
+} 
+
+
+ #appended_heading{
+   font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+   
+ }
+
+ #installment {
+    margin-top: 20px;
+    height: 120px;
+    width: 500px;
+    font-family: "lato regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    padding: 5px;
+  
+
+ }
+ #starhr{
+    margin-top: -70px;
+ }
+
+ #img>img{
+    width: 80%;
+    /* height: 300px; */
+    display: block;
+    margin: auto;
+ }
+
+ #product_overview {
+    margin-top: 50px;
+    padding-right: 40px;
+ }
+
+ #rightbox {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+ }
+
+      .checked {
+          margin-left: 50px;
+          color: orange;
+          margin: auto;
+
+
+      }
+
+      #pg {
+          display: flex;
+          /* border: 1px solid red; */
+          margin: auto;
+          gap: 10px;
+          width: 85%;
+          height: 500px;
+      }
+
+      #pg>div {
+          border: 1px solid grey;
+          width: 75%;
+          height: 425px;
+          margin: auto;
+          gap: 10px;
+
+      }
+
+      #pg>div>img {
+          height: 220px;
+          width: 350px;
+      }
+
+      #pg>div>p {
+          font-family: "lato Bold", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 1.53;
+          color: #000;
+          font-weight: 700;
+          letter-spacing: .2px;
+          text-transform: none;
+          margin-top: 5px;
+          text-align: center;
+      }
+
+      #pg>div>h2 {
+          font-family: "Poly Regular", "Times New Roman", serif;
+          font-size: 22px;
+          line-height: 30px;
+          color: #000;
+          font-weight: 400;
+          display: block;
+          margin-top: -30px;
+          padding: 15px;
+          margin-bottom: 15px;
+
+
+
+      }
+      #counter{
+         display: flex;
+         width: 120px;
+         font-weight: bold;
+         font-size: large;
+      
+       
+    }
+    #counter>button{
+       width: 200px;
+       height: 40px;
+       border: none;
+       font-size:x-large;
+       
+       /* background-color: red; */
+    }
+    #counter>button:hover{
+       background-color: rgb(162, 158, 158);
+       border: 1px solid black;
+    }
+   
+    #num{
+       /* align-items: center; */
+       /* text-align: center; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: medium;
+       width: 240px;  
+       border-top: 1px solid grey;
+       border-bottom: 1px solid grey;
+       
+    }
+        #cartbtn{
+           display: flex;
+        }
+     
+      #cartbutton{
+         font-family: "lato regular", Helvetica, Arial, sans-serif;
+         font-size: 14px;
+         color: #000;
+         background-color: #222;
+         color: #fff;
+         border-width: 2px;
+         border-style: solid;
+         border-color: #222;
+         /* padding: 9.6px 45px; */
+         width: 200px;
+         height: 40px;
+         cursor: pointer;
+         margin-left: 100px;
+         
+      }
+      #save2btn{
+         margin-top: 30px;
+      }
+      #cartbutton:hover{
+         background-color:grey ;
+
+      }
+
+
+      #pg>div>button{
+      
+          font-family: "lato regular", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          font-weight: 400;
+          background-color: #222;
+          color: #fff;
+          border-width: 2px;
+          border-style: solid;
+          border-color: #222;
+          border-radius: 1px;
+          padding: 9.6px 32px;
+          cursor: pointer;
+          margin-left: 80px;
+          margin-top: 10px;
+
+
+
+      }
+
+      .pgp {
+          font-family: "lato regular", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          /* line-height: 2.428; */
+          color: #000;
+          margin-left: 100px;
+          /* border: 1px solid red; */
+          margin-top: 40px;
+
+
+
+      }
+
+      .reviewbox {
+          border: 1px solid grey;
+          text-align: center;
+          height: 200px;
+          width: 85%;
+          margin: auto;
+      }
+
+      #review {
+
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: auto;
+          /* border: 1px solid  green; */
+          margin: auto;
+          height: auto;
+          width: 85%;
+          margin-top: 60px;
+
+
+      }
+
+     #review1>button {
+          height: 35px;
+          border: 2px solid #000;
+          background-color: #fff;
+          font-size: 14px;
+          color: #000;
+          font-weight: 400;
+      }
+
+      #review1>p {
+          font-family: Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 1.428;
+          font-weight: 500;
+          
+          margin-bottom: 36px;
+        
+
+      }
+
+      #line {
+          border-top: 1px solid grey;
+          margin-top: 20px;
+          width: 70%;
+          margin-left: 160px;
+
+
+      }
+      #price2>{
+         color: grey;
+      }
+
+      #review2 {
+          padding: 10px;
+          /* height: auto;
+          border: 1px solid green; */
+
+      }
+
+      #review2>h2 {
+          font-family: "lato regular", Helvetica, Arial, sans-serif;
+          font-size: 24px;
+          font-weight: 600;
+      }
+
+      #review2>p {
+          font-family: "lato regular", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          display: block;
+          font-weight: 500;
+          letter-spacing: 0;
+          
+      }
+
+      .athenaProductReviews_thumbsDown {
+          fill: #a82a30;
+          height: 12px;
+          width: 12px;
+          padding-right: 4px;
+         
+      }
+
+      .athenaProductReviews_thumbsUp {
+          fill: #007d1e;
+          height: 12px;
+          width: 12px;
+          padding-right: 4px;
+         
+
+      }
+
+      .productReviewStarsPresentational {
+          fill: orange;
+          align-self: center;
+          /* background-color: red; */
+          margin: auto;
+          align-items: center;
+         
+      }
+      .heart_heartUnfilled {
+         fill: #fff;
+         stroke: #222;
+      
+      }
