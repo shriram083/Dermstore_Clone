@@ -21,10 +21,10 @@ let navbar = () => {
             <div class="contain">
               <div class="containerTop">
                 <div class="insideContainer login">
-                  <p><a href="./login.html">LOGIN</a></p>
+                  <p>LOGIN</p>
                 </div>
                 <div class="insideContainer register">
-                  <p><a href="./signup.html">REGISTER </a></p>
+                  <p>REGISTER</p>
                 </div>
               </div>
               <div class="insideContainer accountDropDown">
@@ -92,101 +92,163 @@ let navbar = () => {
 
               <div class="categorys browser"><p>Browser By</p></div>
               <!-- browser drop down start -->
-<div class="browserCon">
-  <div id="insideBrowser">
-    <div id="BrowserDivOne" class="browserDiv">
-      <hr />
-      <p class="heading browserP">Brands</p>
-      <p class="browserP">SkinCeuticals</p>
-      <p class="browserP">EltaMD</p>
-      <p class="browserP">SkinMedica</p>
-      <p class="browserP">Obagi</p>
-      <p class="browserP">iS Clinical</p>
-      <p class="browserP">Eminence Organic Skin</p>
-      <p class="browserP">Revision Skincare</p>
-      <p class="browserP">Neocutis</p>
-      <p class="browserP">Oribe</p>
-      <p class="browserP">Sunday Riley</p>
-      <p class="browserP">PCA SKIN</p>
-    </div>
-    <div id="BrowserDivTwo" class="browserDiv">
-      <hr />
-      <p class="heading browserP">Concern</p>
-      <p class="browserP">Acne</p>
-      <p class="browserP">Acne Scars</p>
-      <p class="browserP">Aging Skin</p>
-      <p class="browserP">Blackheads</p>
-      <p class="browserP">Dark Circles</p>
-      <p class="browserP">Dark Spots</p>
-      <p class="browserP">Rosacea</p>
-      <p class="browserP">Oil Control</p>
-      <p class="browserP">Irritated Skin</p>
-      <p class="browserP">Large Pores</p>
-      <p class="browserP">Stretch Marks</p>
-      <p class="browserP">Wrinkles</p>
-    </div>
-    <div id="BrowserDivThree" class="browserDiv">
-      <hr />
-      <p class="heading browserP">Skin Type</p>
-      <p class="browserP">Acne-Prone Skin</p>
-      <p class="browserP">Sensitive Skin</p>
-      <p class="browserP">Dry Skin</p>
-      <p class="browserP">Mature Skin</p>
-      <p class="browserP">Combination Skin</p>
-      <p class="browserP">Oily Skin</p>
-      <p class="browserP">Normal Skin</p>
-    </div>
-    <div id="BrowserDivFour" class="browserDiv">
-      <hr />
-      <p class="heading browserP">Ingredient</p>
-      <p class="browserP">Vitamin C</p>
-      <p class="browserP">Hyaluronic Acid</p>
-      <p class="browserP">Retinol</p>
-      <p class="browserP">Antioxidants</p>
-      <p class="browserP">Zinc Oxide</p>
-      <p class="browserP">Niacinamide</p>
-      <p class="browserP">Peptides</p>
-      <p class="browserP">Glycolic Acid</p>
-      <p class="browserP">Vitamin A</p>
-      <p class="browserP">Vitamin E</p>
-      <p class="browserP">Latic Acid</p>
-    </div>
-    <div id="BrowserDivFive" class="browserDiv">
-      <hr />
-      <p class="heading browserP">New Featured Brands</p>
-      <p class="browserP">Sulwhasoo</p>
-      <p class="browserP">Me</p>
-      <p class="browserP">Iluminage</p>
-      <p class="browserP">ghd</p>
-      <p class="browserP">Medik8</p>
-      <p class="browserP">Volition Beauty</p>
-      <p class="browserP">Nurse Jamie</p>
-      <p class="browserP">NION Beauty</p>
-      <p class="browserP">AMELIRATE</p>
-      <p class="browserP">Olaplex</p>
-      <p class="browserP">ILIA</p>
-      <p class="browserP">Revision Skincare</p>
-      <p class="browserP">SENTE</p>
-    </div>
-    <div id="BrowserDivSix" class="browserDiv">
-      <hr />
-      <p class="heading browserP">Collection</p>
-      <p class="browserP">Allure Award Winners</p>
-      <p class="browserP">Consicous Beauty</p>
-      <p class="browserP">Dermatologist Approved</p>
-      <p class="browserP">Dermstore Exclusive</p>
-      <p class="browserP">Female-Founded Brands</p>
-      <p class="browserP">Gift With Purchase</p>
-      <p class="browserP">Save With Replenishment</p>
-      <p class="browserP">Spring Skin Care</p>
-      <p class="browserP">Wellness</p>
-    </div>
-  </div>
-</div>
-<!-- browser drop down end-->
+              <div class="browserCon">
+                <div id="insideBrowser">
+                  <div id="BrowserDivOne" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">Brands</p>
+                    <p class="browserP">SkinCeuticals</p>
+                    <p class="browserP">EltaMD</p>
+                    <p class="browserP">SkinMedica</p>
+                    <p class="browserP">Obagi</p>
+                    <p class="browserP">iS Clinical</p>
+                    <p class="browserP">Eminence Organic Skin</p>
+                    <p class="browserP">Revision Skincare</p>
+                    <p class="browserP">Neocutis</p>
+                    <p class="browserP">Oribe</p>
+                    <p class="browserP">Sunday Riley</p>
+                    <p class="browserP">PCA SKIN</p>
+                  </div>
+                  <div id="BrowserDivTwo" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">Concern</p>
+                    <p class="browserP">Acne</p>
+                    <p class="browserP">Acne Scars</p>
+                    <p class="browserP">Aging Skin</p>
+                    <p class="browserP">Blackheads</p>
+                    <p class="browserP">Dark Circles</p>
+                    <p class="browserP">Dark Spots</p>
+                    <p class="browserP">Rosacea</p>
+                    <p class="browserP">Oil Control</p>
+                    <p class="browserP">Irritated Skin</p>
+                    <p class="browserP">Large Pores</p>
+                    <p class="browserP">Stretch Marks</p>
+                    <p class="browserP">Wrinkles</p>
+                  </div>
+                  <div id="BrowserDivThree" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">Skin Type</p>
+                    <p class="browserP">Acne-Prone Skin</p>
+                    <p class="browserP">Sensitive Skin</p>
+                    <p class="browserP">Dry Skin</p>
+                    <p class="browserP">Mature Skin</p>
+                    <p class="browserP">Combination Skin</p>
+                    <p class="browserP">Oily Skin</p>
+                    <p class="browserP">Normal Skin</p>
+                  </div>
+                  <div id="BrowserDivFour" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">Ingredient</p>
+                    <p class="browserP">Vitamin C</p>
+                    <p class="browserP">Hyaluronic Acid</p>
+                    <p class="browserP">Retinol</p>
+                    <p class="browserP">Antioxidants</p>
+                    <p class="browserP">Zinc Oxide</p>
+                    <p class="browserP">Niacinamide</p>
+                    <p class="browserP">Peptides</p>
+                    <p class="browserP">Glycolic Acid</p>
+                    <p class="browserP">Vitamin A</p>
+                    <p class="browserP">Vitamin E</p>
+                    <p class="browserP">Latic Acid</p>
+                  </div>
+                  <div id="BrowserDivFive" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">New Featured Brands</p>
+                    <p class="browserP">Sulwhasoo</p>
+                    <p class="browserP">Me</p>
+                    <p class="browserP">Iluminage</p>
+                    <p class="browserP">ghd</p>
+                    <p class="browserP">Medik8</p>
+                    <p class="browserP">Volition Beauty</p>
+                    <p class="browserP">Nurse Jamie</p>
+                    <p class="browserP">NION Beauty</p>
+                    <p class="browserP">AMELIRATE</p>
+                    <p class="browserP">Olaplex</p>
+                    <p class="browserP">ILIA</p>
+                    <p class="browserP">Revision Skincare</p>
+                    <p class="browserP lastP">SENTE</p>
+                  </div>
+                  <div id="BrowserDivSix" class="browserDiv">
+                    <hr />
+                    <p class="heading browserP">Collection</p>
+                    <p class="browserP">Allure Award Winners</p>
+                    <p class="browserP">Consicous Beauty</p>
+                    <p class="browserP">Dermatologist Approved</p>
+                    <p class="browserP">Dermstore Exclusive</p>
+                    <p class="browserP">Female-Founded Brands</p>
+                    <p class="browserP">Gift With Purchase</p>
+                    <p class="browserP">Save With Replenishment</p>
+                    <p class="browserP">Spring Skin Care</p>
+                    <p class="browserP">Wellness</p>
+                  </div>
+                </div>
+              </div>
+              <!-- browser drop down end-->
               <div class="categorys best"><p>Bestsellers</p></div>
               <div class="categorys skinCare"><p>Skin Care</p></div>
               <div class="categorys makeup"><p>Makeup</p></div>
+              <!-- makeup drop down start -->
+              <div class="makeupCon">
+                <div id="insideMakeup">
+                  <div id="makeupDivOne" class="makeupDiv">
+                    <hr />
+                    <p class="heading makeupP">Face</p>
+                    <p class="makeupP">Foundation</p>
+                    <p class="makeupP">BB & CC Creams</p>
+                    <p class="makeupP">Concealer</p>
+                    <p class="makeupP">Blush</p>
+                    <p class="makeupP">Highlighters & Contouring</p>
+                    <p class="makeupP">Primer</p>
+                    <p class="makeupP">Face Palettes</p>
+                    <p class="makeupP lastP">Setting Spray & Powders</p>
+                  </div>
+                  <div id="makeupDivTwo" class="makeupDiv">
+                    <hr />
+                    <p class="heading makeupP">Lips</p>
+                    <p class="makeupP">Lipstick</p>
+                    <p class="makeupP">Liquid Lipstick</p>
+                    <p class="makeupP">Lip Gloss & Stains</p>
+                    <p class="makeupP">Lip Balms & Treatments</p>
+                  </div>
+                  <div id="makeupDivThree" class="makeupDiv">
+                    <hr />
+                    <p class="heading makeupP">Eyes</p>
+                    <p class="makeupP">Eyeshadow</p>
+                    <p class="makeupP">Eye Palettes</p>
+                    <p class="makeupP">Mascara</p>
+                    <p class="makeupP">Eyeliner</p>
+                    <p class="makeupP">Eyebrow Makeup</p>
+                    <p class="makeupP">lash & Brow Enhancer</p>
+                    <p class="makeupP">Eye Primer</p>
+                    <p class="makeupP">False Lashes</p>
+                  </div>
+                  <div id="makeupDivFour" class="makeupDiv">
+                    <hr />
+                    <p class="heading makeupP">More</p>
+                    <p class="makeupP">Tools & Brushes</p>
+                    <p class="makeupP">Makeup Meets Skin Care</p>
+                    <p class="makeupP">New Arrivals</p>
+                    <p class="makeupP">Bestsellers</p>
+                    <p class="makeupP">Kits & Sets</p>
+                    <p class="makeupP">Top Rated</p>
+                    <p class="makeupP">Sale</p>
+                    <p class="makeupP">View All</p>
+                  </div>
+                  <div id="makeupDivFive" class="makeupDiv">
+                    <hr />
+                    <p class="heading makeupP">Popular Brands</p>
+                    <p class="makeupP">RevitaLash Cosmetics</p>
+                    <p class="makeupP">jane iredale</p>
+                    <p class="makeupP">Smashbox</p>
+                    <p class="makeupP">ILIA</p>
+                    <p class="makeupP">Tarte Cosmetics</p>
+                    <p class="makeupP">Glo Skin Beauty</p>
+                    <p class="makeupP">Kevyn Aucoin</p>
+                    <p class="makeupP">BY TERRY</p>
+                  </div>
+                </div>
+              </div>
+              <!-- makeup drop down end-->
               <div class="categorys hari"><p>Hair Care</p></div>
               <div class="categorys bath"><p>Bath & Body</p></div>
               <div class="categorys tool"><p>Tools & Devices</p></div>

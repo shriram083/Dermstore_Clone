@@ -34,6 +34,25 @@ var browserCon = document.querySelector(".browserCon");
 var browser = document.querySelector(".browser");
 
 browser.addEventListener("click", function () {
-  console.log('s')
+  console.log("s");
   browserCon.classList.toggle("browserCon-height");
+});
+
+// makeup drop down
+var makeupCon = document.querySelector(".makeupCon");
+
+var makeup = document.querySelector(".makeup");
+
+makeup.addEventListener("click", function () {
+  makeupCon.classList.toggle("makeupCon-height");
+});
+
+// going to login page
+document.querySelector(".login").addEventListener("click", function () {
+  window.location = "./login.html";
+});
+
+// going to register page
+document.querySelector(".register").addEventListener("click", function () {
+  window.location = "./signup.html";
 });
