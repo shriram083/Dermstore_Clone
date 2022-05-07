@@ -20,15 +20,16 @@ h3 {
   margin: auto;
   height: 500px;
   display: flex;
-  background: rgb(208, 208, 208);
   justify-content: space-between;
   align-items: center;
   padding-right: 30px;
   margin-bottom: 50px;
+  
 }
 #box {
   width: 700px;
   height: 500px;
+  padding-left: 30px;
 }
 #div_to_brands {
   height: 100%;
@@ -45,7 +46,7 @@ h3 {
   margin: 5px;
 }
 .image img {
-  width: 280px;
+  width: 250px;
   height: 230px;
   margin: auto;
 }
@@ -81,7 +82,7 @@ h3 {
     color: white;
 }
 .info button {
-  width: 98%;
+  width: 95%;
   height: 45px;
   background-color: black;
   color: white;
@@ -118,15 +119,17 @@ h2 {
   cursor: pointer;
 }
 #box2 {
-  width: 95%;
+  width: 93%;
   height: 500px;
   margin: auto;
-  border-left: 30px solid rgb(209, 206, 206);
-  border-right: 30px solid rgb(209, 206, 206);
   box-sizing: border-box;
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: center; 
+}
+.container2{
+  padding-left: 30px;
+  padding-right: -10px;
 }
 .innerBox2 {
   width: 300px;
@@ -158,12 +161,16 @@ h2 {
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-right: 60px;
+
+}
+.container3{
+  padding-left: 30px;
 }
 #box3 {
-  width: 600px;
+  width: 650px;
   height: 450px;
-  border-left: 30px solid rgb(209, 206, 206);
-  border-right: 30px solid rgb(209, 206, 206);
+  
 }
 #div_to_meet {
   height: 100%;
@@ -258,13 +265,14 @@ h2 {
   width: 95%;
   height: 400px;
   margin: auto;
-  border-left: 30px solid rgb(209, 206, 206);
-  border-right: 30px solid rgb(209, 206, 206);
-  /* padding: 30px; */
   box-sizing: border-box;
   margin-bottom: 50px;
   text-align: center;
   margin-top: 50px;
+  padding-right: 40px;
+}
+.container5{
+  padding-left: 10px;
 }
 .innerBox5 {
   width: 300px;
@@ -287,12 +295,13 @@ h2 {
   width: 95%;
   height: 600px;
   margin: auto;
-  border-left: 30px solid rgb(209, 206, 206);
-  border-right: 30px solid rgb(209, 206, 206);
-  /* padding: 30px; */
   box-sizing: border-box;
   margin-bottom: 0px;
   text-align: center;
+  padding-right: 60px;
+}
+.container6{
+  padding-left: 30px;
 }
 .innerBox6 {
   width: 300px;
@@ -390,13 +399,14 @@ h2 {
   width: 90%;
   height: 250px;
   margin: auto;
-  border-left: 30px solid rgb(209, 206, 206);
-  border-right: 30px solid rgb(209, 206, 206);
-  /* padding: 30px; */
   box-sizing: border-box;
   margin-top: 50px;
   margin-bottom: 200px;
   text-align: center;
+  padding-right: 60px;
+}
+.container7{
+  padding-left: 30px;
 }
 .innerBox7 {
   width: 300px;
@@ -417,4 +427,13 @@ h2 {
   margin: 10px 10px 10px 10px;
   height: 100px;
   width: 300px;
+}
+.slick-next:before, .slick-prev:before {
+  font-family: slick;
+  font-size: 50px !important;
+  line-height: 1;
+  opacity: .75;
+  color: #695F5F !important ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
