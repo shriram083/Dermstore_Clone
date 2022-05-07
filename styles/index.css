@@ -76,12 +76,17 @@ p {
     text-align: center;
     margin: 10px 0px 10px 0px;
 }
+.info button a{
+    text-decoration: none;
+    color: white;
+}
 .info button {
   width: 98%;
   height: 45px;
   background-color: black;
   color: white;
   padding: 10px;
+  cursor: pointer;
 }
 h2 {
   font-family: "Poly", serif;
@@ -100,6 +105,10 @@ h2 {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+.category a{
+    text-decoration: none;
+    color: black;
 }
 .category {
   padding: 10px;
@@ -195,12 +204,17 @@ h2 {
   margin: -30px 0px 10px 0px;
   font-size: 20px;
 }
+.info3 button a{
+    text-decoration: none;
+    color: white;
+}
 .info3 button {
   width: 100%;
   height: 50px;
   background-color: black;
   color: white;
   padding: 10px;
+  cursor: pointer;
 }
 
 #container4 {
@@ -224,6 +238,7 @@ h2 {
   width: 100%;
   margin: 20px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 #container4 div img {
   width: 100%;
@@ -233,6 +248,7 @@ h2 {
   width: 100%;
   margin: 20px;
   margin-top: 0px;
+  font-size: 15px;
 }
 
 #box5 {
@@ -304,6 +320,10 @@ h2 {
   margin: auto;
   margin-top: 30px;
 }
+.info6 button a{
+    text-decoration: none;
+    color: white;
+}
 .info6 button {
   width: 100%;
   height: 50px;
@@ -312,6 +332,7 @@ h2 {
   padding: 10px;
   margin-top: 50px;
   font-size: 17px;
+  cursor: pointer;
 }
 #newArrival {
   margin: auto;
