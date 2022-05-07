@@ -16,7 +16,7 @@
        regdUsers[i].password == enteredPass
      ) {
        alert("login success");
-      //  window.location.href = "men.html";
+       window.location.href = "./index.html";
        break;
      } else {
        console.log("login failed");

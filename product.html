@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poly&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./styles/navbar&Footer.css">
   </head>
   <body>
-    <a href="Addcart.html">Addcart</a>
+    <div id="navbar"></div>
+    
     <main>
   
 
@@ -27,25 +29,30 @@
             <div class="midsizeplus" style="padding: 20px 20px">Refine</div>
             <div class="filters">
               <div class="filter-categories">
-                <p>Skincare Products Type</p>
-                
+              
+                  <p>Skincare Products Type</p>
+                  <div class="lop">
+                    <label for="puma">Bronzer</label>
                 <input
                   type="checkbox"
                   id="adidas"
-                  value="adidas"
+                  value="puma"
                   class="cb"
-                 
                 
-                />
-                <label for="adidas">Foundation</label><br />
+                /> 
+                </div>
+                  <div class="lop">
+                    <label for="puma">Bronzer</label>
                 <input
                   type="checkbox"
                   id="puma"
                   value="puma"
                   class="cb"
                 
-                />
-                <label for="puma">Bronzer</label><br />
+                /> 
+                </div>
+               <div class="lop">
+                <label for="HRX">Blush</label>
                 <input
                   type="checkbox"
                   id="HRX"
@@ -53,42 +60,54 @@
                   class="cb"
                 
                 />
-                <label for="HRX">Blush</label><br />
-                <input
-                  type="checkbox"
-                  id="wrogn"
-                  value="wrogn"
-                  class="cb"
-                
-                />
-                <label for="wrogn">eye Shadow</label><br />
+               </div>
+             <div class="lop">
+              <label for="wrogn">eye Shadow</label>
+              <input
+                type="checkbox"
+                id="wrogn"
+                value="wrogn"
+                class="cb"
+              
+              />
+             </div>
+               
+            
                 
               </div>
 
               <div class="filter-categories">
                 <p>Price</p>
-                <input
-                  type="checkbox"
-                  id="500"
-                  value="500"
-                  class="check3"
-                />
-                <label for="500">Below $10</label><br />
-
+                <div class="lop">
+                  <label for="500">Below $10</label>
+                  <input
+                    type="checkbox"
+                    id="500"
+                    value="500"
+                    class="check3"
+                  />
+                </div>
+              
+              <div class="lop">
+                <label for="1000">$10 to $20</label>
                 <input
                   type="checkbox"
                   id="1000"
                   value="1000"
                   class="check3"
                 />
-                <label for="1000">$10 to $20</label><br />
-                <input
-                  type="checkbox"
-                  id="1500"
-                  value="1500"
-                 
-                />
-                <label for="1500">Above $15</label><br />
+              </div>
+             <div class="lop">
+              <label for="1000">Above $15</label>
+              <input
+                type="checkbox"
+                id="1500"
+                value="1500"
+               
+              />
+             </div>
+              
+              
              
               </div>
 
@@ -112,7 +131,9 @@
         </div>
       </div>
     </main>
+
+    <div id="footerDiv"></div>
   </body>
 </html>
 <!-- <script src="../js/products.js"></script> -->
-<script src="../js/allfiles.js" type="module"></script>
+<script src="./js/allfiles.js" type="module"></script>
