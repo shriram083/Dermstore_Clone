@@ -112,7 +112,15 @@ var btn=document.createElement("button")
 btn.setAttribute("id","black")
     btn.addEventListener("click", function () {
     arr.push(el)
+
+    let arr1 = [];
+
+ arr1.push(el)
         localStorage.setItem("clickedProduct", JSON.stringify(arr))
+        
+        localStorage.setItem("small_img", JSON.stringify(arr1))
+        // alert("Added to Cart")
+        window.location.href="Addcart.html"
     })
     btn.innerText="Quick Buy"
     a.append(div45,div1,span1,div3,btn)
