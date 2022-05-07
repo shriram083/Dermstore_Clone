@@ -16,7 +16,7 @@
   /* border: 2px solid green; */
   background-color: white;
   /* z-index: 10;
-  /* position: fixed; */ 
+  /* position: fixed; */
 }
 #HTwoTop {
   display: flex;
@@ -38,9 +38,11 @@
   margin-left: 100px;
 }
 #HTwoBottom p {
-  padding-right: 30px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   padding-top: 5px;
   padding-bottom: 5px;
+  /* border: 2px blue solid; */
 }
 #outsideInputDiv {
   width: 807px;
@@ -69,7 +71,7 @@ input {
 }
 /* Account */
 #account {
-  border: red 2px solid;
+  /* border: red 2px solid; */
   padding-right: 10px;
   cursor: pointer;
 }
@@ -197,33 +199,97 @@ input {
 .categorys {
   font-size: 16x;
   font-family: "Poly Regular", "Times New Roman", serif;
+  /* border: red 2px solid; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .categorys p {
   font-size: 16px;
 }
 
-/* brand */
+/* brand drop down start*/
 .brandCon {
   position: absolute;
-  width: 1000px;
+  width: 1200px;
   background: #fff;
   box-shadow: 0010px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  border: 3px red solid;
-  top: 100px;
-  right: 200px;
+  /* border: 3px red solid; */
+  top: 170px;
+  right: 220px;
   max-height: 0px;
-  transition: max-height 0.7s;
+  transition: max-height 0.8s;
   z-index: 10;
 }
 .brandCon-height {
   max-height: 600px;
 }
-.brandCon p {
+#insideBrand {
+  padding: 10px 10px 10px 10px;
+}
+#brandTop {
+  display: flex;
+}
+#brandBottom {
+  display: flex;
+  margin-top: 5px;
+}
+.brandP {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 2px yellow solid; */
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+.insideBrandBottom {
+  margin-right: 50px;
+  padding-left: 10px;
+}
+.insideBrandBottom p {
+  font-size: 16px;
+  font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
+/* brand drop down end */
+/* browser drop down start */
+.browserCon {
+  position: absolute;
+  width: 1200px;
+  background: #fff;
+  box-shadow: 0010px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  /* border: 3px red solid; */
+  top: 170px;
+  right: 220px;
+  max-height: 0px;
+  transition: max-height 0.5s;
+  z-index: 10;
+}
+.browserCon-height {
+  max-height: 600px;
+}
+#insideBrowser {
+  display: flex;
+  padding: 10px;
+  padding-left: 15px;
+  /* padding-top: 20px; */
+}
+#insideBrowser hr {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+#insideBrowser p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.browserDiv {
+  margin-right: 20px;
+  width: 200px;
+}
+#insideBrowser .heading {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+/* browser drop down end */
 #HThree {
   height: 56px;
   background-color: #f2f2f2;
@@ -281,7 +347,7 @@ input {
   background-color: #f2f2f2;
   /* height: 578px; */
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .hrFooter {
   margin-bottom: 13px;
