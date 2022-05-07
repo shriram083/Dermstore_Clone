@@ -21,28 +21,21 @@ function accountFn() {
 
 // brand drop down
 var brandCon = document.querySelector(".brandCon");
-
 var brand = document.querySelector(".brands");
-
 brand.addEventListener("click", function () {
   brandCon.classList.toggle("brandCon-height");
 });
 
 // browser drop down
 var browserCon = document.querySelector(".browserCon");
-
 var browser = document.querySelector(".browser");
-
 browser.addEventListener("click", function () {
-  console.log("s");
   browserCon.classList.toggle("browserCon-height");
 });
 
 // makeup drop down
 var makeupCon = document.querySelector(".makeupCon");
-
 var makeup = document.querySelector(".makeup");
-
 makeup.addEventListener("click", function () {
   makeupCon.classList.toggle("makeupCon-height");
 });

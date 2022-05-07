@@ -89,7 +89,6 @@ let navbar = () => {
                 </div>
               </div>
               <!-- brand drop down end-->
-
               <div class="categorys browser"><p>Browser By</p></div>
               <!-- browser drop down start -->
               <div class="browserCon">
