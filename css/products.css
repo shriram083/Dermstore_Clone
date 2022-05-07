@@ -367,4 +367,27 @@
   main{
     display: block;
     margin-bottom: 1000px;
+
+  }
+
+
+  .left{
+    /* display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px; */
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .filter-categories {
+    border: 1px solid #ddd;
+    padding: 0 20px 20px 20px;
+    width: 211px;
   }

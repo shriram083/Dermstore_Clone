@@ -223,6 +223,7 @@ btn.setAttribute("id","black")
  checkbox.addEventListener('change', e => {
 
     if(e.target.checked){
+        
      
       filter("foundation")
     }
