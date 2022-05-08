@@ -107,3 +107,16 @@ let decFun = ()=> {
  }
 
  document.querySelector("#cartbutton").addEventListener("click",cartBtn)
+
+
+
+//  
+// going to home page
+document.querySelector(".logo").addEventListener("click", function () {
+    window.location = "./index.html";
+  });
+
+  // going to cart page
+document.querySelector("#cart").addEventListener("click", function () {
+    window.location = "./cart.html";
+  });

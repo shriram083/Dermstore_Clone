@@ -49,3 +49,8 @@ document.querySelector(".login").addEventListener("click", function () {
 document.querySelector(".register").addEventListener("click", function () {
   window.location = "./signup.html";
 });
+
+// going to cart page
+document.querySelector("#cart").addEventListener("click", function () {
+  window.location = "./cart.html";
+});

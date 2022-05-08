@@ -16,7 +16,7 @@ import{apical} from "./fetch.js";
 //     let data=await res.json()
 //     return data;
 // }
-    let  products= await apical("http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")
+    let  products= await apical("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")
 console.log(products.length,"pro")
 
   var length=products.length;
@@ -284,3 +284,17 @@ checkbox7.addEventListener('change', e => {
    }
 
 });
+
+
+
+// 
+
+// going to home page
+document.querySelector(".logo").addEventListener("click", function () {
+    window.location = "./index.html";
+  });
+
+  // going to cart page
+document.querySelector("#cart").addEventListener("click", function () {
+    window.location = "./cart.html";
+  });

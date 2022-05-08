@@ -4,7 +4,7 @@ let navbar = () => {
         <div id="HOne"></div>
         <div id="HTwo">
           <div id="HTwoTop">
-            <img src="./Images/dermstore.png" alt="" />
+            <img src="./Images/dermstore.png" alt="" class="logo"/>
             <div id="outsideInputDiv">
               <div id="inputDiv">
                 <input type="text" placeholder="Search for a product or brand" />

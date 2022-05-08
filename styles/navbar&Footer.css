@@ -18,6 +18,9 @@
   /* z-index: 10;
   /* position: fixed; */
 }
+.logo {
+  cursor: pointer;
+}
 #HTwoTop {
   display: flex;
   /* border: 2px solid yellow; */
@@ -70,7 +73,7 @@ input {
   border: 0px;
 }
 /* Account */
-#account {
+.account {
   /* border: red 2px solid; */
   padding-right: 10px;
   cursor: pointer;
@@ -83,39 +86,6 @@ input {
   font-size: 30px;
   margin-left: 10px;
 }
-/* #accountContainer { */
-/* position: absolute;
-    width: 90%;
-    max-width: 350px;
-    height: 220px;
-    background: #fff;
-    box-shadow: 0010px rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    overflow: hidden;
-    top: 100px;
-    right: 5%;
-    max-height: 0px;
-    transition: max-height 0.3s;  */
-/*  */
-/* position: absolute;
-    width: 300px;
-    height: 220px;
-    background: #fff;
-    box-shadow: 0010px rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    overflow: hidden;
-    top: 100px;
-    right: 200px;
-    max-height: 0px;
-    transition: max-height 0.3s;
-    border: 2px black solid;
-    z-index: 10;
-  } */
-
-/* #accountContainer-height {
-    max-height: 600px;
-  }  */
-
 /*  */
 
 .contain {
@@ -175,6 +145,7 @@ input {
   /* margin-bottom: 10px; */
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .insideContainer {
   padding-top: 10px;
@@ -182,6 +153,9 @@ input {
   padding-left: 10px;
 }
 /*  */
+#cart {
+  cursor: pointer;
+}
 #insideCart {
   display: flex;
   align-items: center;
@@ -202,6 +176,7 @@ input {
   /* border: red 2px solid; */
   padding-left: 15px;
   padding-right: 15px;
+  cursor: pointer;
 }
 .categorys p {
   font-size: 16px;
