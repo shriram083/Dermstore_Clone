@@ -221,8 +221,7 @@ height:40px;
 .trbut{
   
   -webkit-font-smoothing: antialiased;
-  background-color:
-#0170b9;
+  background-color:black;
   background-image: none;
   border-radius: 3px;
   border-width: 0;
@@ -245,8 +244,12 @@ height:40px;
   transition: all .2s linear;
   vertical-align: baseline;
   width:360px;
+  padding: 20px 0px 20px 0px;
 }
-
+.trbut a{
+  text-decoration: none;
+  color: white;
+}
 .inpute{
 
   appearance: none;

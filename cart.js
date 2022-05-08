@@ -88,8 +88,7 @@ dive.append(inpute,buttone)
 
 document.querySelector(".ole").append(dive)
 document.querySelector(".trbut").addEventListener("click", function(){
-    window.location.href="checkout.html"
-
+    window.location.href="./payment.html"
 })
     }
  
