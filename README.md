@@ -54,7 +54,7 @@ JavaScript : 15%
 * On this page user will be able to view all the details of the particular product.
 * And from here they can add the product to their cart.
 * Also they can find reviews of other customers for the particular product.
-![name-of-you-image](https://github.com/shriram083/Dermstore_Clone/blob/master/Images/productdetailspge.png)
+![name-of-you-image](https://github.com/shriram083/Dermstore_Clone/blob/master/Images/prodetails_updated.png)
 
 ## Cart Page :-
 * Here User can view their cart.
