@@ -1,0 +1,190 @@
+
+#top-image {
+    display: block;
+}
+
+#login-signup {
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 600px;
+    box-sizing: border-box;
+}
+
+#login-signup div {
+    padding: 0px 10px 0px 10px;
+    width: 350px;
+}
+
+#login-signup button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+#login-signup button {
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#delivery-option {
+    margin: auto;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#delivery-option h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#delivery-option h3 {
+    background-color: #e6f0f8;
+    color: #0065ad;
+    font-size: 15px;
+    text-align: center;
+}
+#messege{
+    display: flex;
+    align-items: center;
+    background-color: #e6f0f8;
+    padding: 10px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+#messege span{
+    background-color: #e6f0f8;
+    color:#0065ad;
+}
+#submit-order {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#submit-order button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 550px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#policy {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#policy p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.list {
+    font-size: 18px;
+    font-weight: 545;
+    font-family: CormorantGaramond, "Times New Roman";
+    margin-bottom: 20px;
+}
+
+#divTwo {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 600px;
+    padding: 24px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#divTwoHeading {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: CormorantGaramond, "Times New Roman";
+}
+
+#info {
+    margin-bottom: 10px;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+#divTwo input {
+    width: 550px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    color: rgb(70, 70, 70);
+    font-size: 15px;
+}
+
+.link {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: 100;
+    color: gray;
+    font-size: 13px;
+}
+
+#imgfirst{
+    display: flex;
+    /* border: 1px solid; */
+}
+#firstmain{
+    /* border: 1px solid; */
+    /* width: 600px; */
+    margin: auto;
+    padding: 30px;
+    width: 552px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#monthYear{
+    display: flex;
+    justify-content: space-around;
+}
+select{
+  width: 264px;
+height: 36px;
+}
+img{
+    margin-left: 10px;
+}
+#mainPay{
+ /* text-align: left; */
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+ width: 600px;
+}
+#input{
+    width: 90%;
+    height: 40px;
+    padding-left: 50px;
+}
+#cvv{
+    height: 40px;
+    width: 40%;
+    padding-left: 50px;
+}
