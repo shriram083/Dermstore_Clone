@@ -1,3 +1,11 @@
+//importing navbar
+import { navbar } from "../component/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
+//importing footer
+import { footer } from "../component/footer.js";
+document.getElementById("footer").innerHTML = footer();
+
 let data = JSON.parse(localStorage.getItem('clickedProduct')) || [];
 let data1 = JSON.parse(localStorage.getItem('small_img')) || [];
 console.log(data1)

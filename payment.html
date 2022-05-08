@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="icon" href="./Images/Icon.png" type="image/png">
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+</head>
+<body>
+    <img src="./Images/payment.png" id="top-image">
+    <div id="login-signup">
+        <div>
+            <h3>Login or sign up</h3>
+            <p>Checkout faster with saved details and get access to exclusive offers</p>
+        </div>
+        <button><a href="./login.html">LOGIN/SIGNUP</a></button>
+    </div>
+
+    <div id="divTwo">
+        <p id="divTwoHeading">Checkout as a gest</p>
+        <p id="info">
+          Complete your order without singing up or sing up after payment
+        </p>
+        <p class="list">1. Email and delivery address</p>
+        <label for="">Email address</label>
+        <input type="text" />
+        <p>We'll send the purchase receipt to this email</p>
+        <br />
+        <label for="">Country/Region</label>
+        <input type="text" placeholder="United States" />
+        <br />
+        <br />
+        <label for="">Full Name</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label for="">Address Search</label>
+        <input type="text" placeholder="Start typing your address..." />
+        <p class="link">or Enter Address Manually</p>
+        <br />
+        <label for="">Contact Number</label>
+        <input type="text" />
+        <p class="link">Why do we need your number?</p>
+      </div>
+
+    <div id="delivery-option">
+        <h2>2. Select Delivery Option</h2>
+        <div id="messege">
+            <span class="material-symbols-outlined"> error </span>
+            <h3>
+                Please enter your address so we can calculate your delivery options.
+            </h3>
+        </div>
+        
+    </div>
+
+    <div id="mainPay" >
+        <h3 >select payment method</h3>
+        <div id="firstmain">
+            <div>
+                <form action="">
+                 <p>Credit/Debit Card</p>
+                 <div id="imgfirst">
+                    <img src="https://s1.thcdn.com/checkout/resources/images/5ea52bff4335c6810730e818e701bdf5.svg" alt="">
+                     <img src="https://s1.thcdn.com/checkout/resources/images/57987be4eb98b4c77644d93d92df80fa.svg" alt="">
+                      <img src="https://s1.thcdn.com/checkout/resources/images/932e82ef072c7df18e91e66b96dfdf5d.svg" alt="">
+                      <img src="https://s1.thcdn.com/checkout/resources/images/6732c0137a7dab50b23daf1337fe2f30.svg" alt="">
+                      <img src="https://s1.thcdn.com/checkout/resources/images/c6b3c4b8eea09a08c22da2cef43e15a5.svg" alt="">
+                      <img src="https://s1.thcdn.com/checkout/resources/images/8ba3dc816042268141a2205e3bfc3971.svg" alt="">
+                    </div>
+                    <div>
+                        <h5>*Card Number</h5>
+                        <input type="text" name="" id="input">
+                        <h5>*Card Number</h5>
+                        <input type="text" name="" id="input">
+                           <h5>*Name on Card</h5>
+                        <input type="text" name="" id="input">
+                        <h5>*Expiry Date</h5>
+                      <div id= "monthYear">
+                          <select name="" id="">
+                              <option value="">Month</option>
+                              <option value="">Jan</option>
+                              <option value="">feb</option>
+                          </select>
+                          <select name="" id="">
+                            <option value="">Year</option>
+                            <option value="">Jan</option>
+                            <option value="">feb</option>
+                        </select>
+                      </div>
+                      <h5>Security Code(CV)</h5>
+                      <input type="text" name="" id="cvv">
+                      <br>
+                      <br />
+                      <input type="checkbox" name="" id=""><span>Use my shopping address as my card holder addreess</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="submit-order">
+        <button id="submit">SUBMIT MY ORDER</button>
+    </div>
+    <div id="policy">
+        <p>
+            By placing this order, you are confirming that you
+            agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span>.
+        </p>
+    </div>
+</body>
+</html>
+<script src="./js/payment.js"></script>
